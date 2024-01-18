@@ -1,5 +1,5 @@
 import { PokemonsResponse, SimplePokemon } from "@/app/pokemons";
-import { PokemonsList } from "@/app/pokemons/components/PokemonsList";
+import { PokemonsList } from "@/app/pokemons";
 
 
 
@@ -24,6 +24,7 @@ export default async function PokemonsPage() {
 
   return (
     <div className="flex flex-col">
+      <span className="text-5lx my-2">Listado de Pokémons <small>estático</small></span>
       <div className="flex flex-wrap gap-10 items-center justify-center">
         <PokemonsList pokemons={pokemons}/>
       </div>
