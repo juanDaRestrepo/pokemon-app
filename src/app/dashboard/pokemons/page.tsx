@@ -1,6 +1,4 @@
-import { PokemonsResponse, SimplePokemon } from "@/app/pokemons";
-import { PokemonsList } from "@/app/pokemons";
-
+import { PokemonsList, PokemonsResponse, SimplePokemon } from "@/pokemons";
 
 
 const getPokemons = async (
